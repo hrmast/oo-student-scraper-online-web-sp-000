@@ -26,7 +26,7 @@ class Student
   end
 
   def add_student_attributes(attributes_hash)
-    attributes_hash
+    self.assign_values(attributes_hash)
     # if hash includes name then assign values
     end
   end
